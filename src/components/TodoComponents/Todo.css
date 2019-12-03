@@ -1,3 +1,55 @@
-.completed {
-    text-decoration: line-through;
+
+
+body {
+    background-color: grey;
 }
+
+.App {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+form {
+    margin: 20px;
+    
+}
+
+form > input {
+    padding: 10px 0;
+    margin-right: 20px;
+    border: 1px solid grey;
+    font-size: 16px;;
+    width: 200px;
+}
+
+button {
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.list {
+    width: 25%;
+    text-align: start;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.task {
+    margin: 10px;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
